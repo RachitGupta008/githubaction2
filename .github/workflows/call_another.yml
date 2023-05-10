@@ -7,7 +7,5 @@ on:
   
 jobs:
   my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Use My Workflow
-        uses: RachitGupta008/github-actions/.github/workflows/schedule.yaml@master
+      uses: RachitGupta008/github-actions/.github/workflows/schedule.yaml@master
+        
