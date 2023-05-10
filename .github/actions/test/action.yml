@@ -1,0 +1,9 @@
+name: My Action
+description: An example action
+runs:
+  using: "composite"
+  steps:
+    - name: HELLO
+      shell: bash
+      run: | 
+           echo "hello from new repo action"
